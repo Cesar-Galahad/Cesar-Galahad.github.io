@@ -72,8 +72,28 @@ section{
     padding: 40px 20px;
     gap: 20px;
 }
+.home__intro{
+    display: flex;
+}
+.home__intro figure img{
+    margin: 0px ;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%; 
+    border: 5px solid var(--Orange-ut);
+}
+.home__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px ;
+}
 .card-schooling{
-    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 50px;
+
 }
 .portafolio{
     display: flex;
