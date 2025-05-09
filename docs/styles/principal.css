@@ -29,6 +29,7 @@ nav{
 }
 header{
     border-bottom: 1px solid var(--blue-oxford);
+    /*position: fixed;*/
 }
 .menu{
     display: none; 

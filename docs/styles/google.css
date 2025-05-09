@@ -30,7 +30,7 @@ nav .nav-right-section a {
     color: #000000;
 }
 nav .nav-right-section .menu-icon{
-    background-image: url('icono-apps.png');
+    background-image: url('../assets/icons/google/icono-apps.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -77,7 +77,7 @@ main .main-input-container:hover{
     border-color: #dfe1e500;
 }
 main .main-input .search-icon{
-    background-image: url('/clon_google/CSS/google-lupa.png');
+    background-image: url('../assets/icons/google/google-lupa.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
