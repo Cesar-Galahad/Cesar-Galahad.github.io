@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+:root{
+   --Urored: #e30613;
+   --backr: #232020;
+   --cream: #F2f7f2;
+   --gray: #7d8491;
+   --celeste: #5998c5;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.carrusel{
+    width: 40%;
+    max-width: 120em;
+    background-color: lightblue;
+}
+.carrusel .grande{
+    width: 400%;
+    background-color: orange;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carrusel .img{
+    width: calc( 100% / 4);
+    background-attachment: green;
+}
+.carrusel .puntos{
+    width: 100%;
+    background-color: red;
+    padding: 1em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel .punto{
+    width: 1em;
+    height: 1em;
+    background-color: blue;
+}

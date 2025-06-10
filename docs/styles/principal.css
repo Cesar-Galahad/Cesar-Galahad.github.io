@@ -74,6 +74,7 @@ section{
     gap: 20px;
 }
 .home__intro{
+    
     display: flex;
 }
 .home__intro figure img{
@@ -90,6 +91,7 @@ section{
     padding-left: 20px ;
 }
 .card-schooling{
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
