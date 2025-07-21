@@ -12,36 +12,50 @@ body{
     padding: 0;
     
 }
-.carrusel{
-    width: 40%;
-    max-width: 120em;
-    background-color: lightblue;
+main{
+    max-width: 80%;
+    margin: 0 auto;
 }
-.carrusel .grande{
-    width: 400%;
-    background-color: orange;
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
+header{
+    top: 0;
+    position: fixed;
 }
-.carrusel .img{
-    width: calc( 100% / 4);
-    background-attachment: green;
+.hero{
+    margin-top: 200px;
+    padding-bottom: 30px;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-auto-rows: 400px;
+    border-bottom: 1px solid var(--gray);
 }
-.carrusel .puntos{
+.info{
+    align-self: center;
+    font-family: 'roboto', monospace;
+    font-size: large;
+}
+.hero-image{
     width: 100%;
-    background-color: red;
-    padding: 1em;
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    object-fit: contain;
 }
-.carrusel .punto{
-    width: 1em;
-    height: 1em;
-    background-color: blue;
+.valores{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-auto-rows: 300px;
+    row-gap: 20px;
+    border-bottom: 1px solid var(--gray);
+    font-family: 'roboto', monospace;
+    font-size: large;
+}
+.valores div img{
+    width: 170px;;
+}
+.item-image {
+    justify-self: center;
+}
+.item-text{
+    align-self: center;
 }

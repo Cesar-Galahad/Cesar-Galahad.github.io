@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+:root{
+   --Urored: #e30613;
+   --backr: #232020;
+   --cream: #F2f7f2;
+   --gray: #7d8491;
+   --celeste: #5998c5;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+main{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 90px;
+}
+header{
+    top: 0;
+    position: fixed;
+}
+
+.propuesta{
+    display: grid;
+    grid-template-columns: 1f;
+    grid-template-rows: 100px;
+    grid-template-areas: 
+    "text text text"
+    "image1 image 2 image3";
+}
+.item-text{
+    grid-area: text;
+}
+.item-image1{
+    grid-area: image1;
+}
+.item-image2{
+    grid-area: image2;
+}
+.item-image3{
+    grid-area: image3;
+}
+.propuesta div img{
+    width: 150px;
+}
