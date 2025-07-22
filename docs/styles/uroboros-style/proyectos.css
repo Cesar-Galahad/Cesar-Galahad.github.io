@@ -22,26 +22,60 @@ header{
     position: fixed;
 }
 
-.propuesta{
-    display: grid;
-    grid-template-columns: 1f;
-    grid-template-rows: 100px;
-    grid-template-areas: 
-    "text text text"
-    "image1 image 2 image3";
+.seccion {
+  margin-bottom: 50px;
+  text-align: center;
 }
-.item-text{
-    grid-area: text;
+
+.seccion h2 {
+  color: var(--backr);
+  margin-bottom: 10px;
 }
-.item-image1{
-    grid-area: image1;
+
+.seccion p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #333;
 }
-.item-image2{
-    grid-area: image2;
+
+/* Estilo general de imágenes */
+.imagenes img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-.item-image3{
-    grid-area: image3;
+
+/* Distribución por tipo */
+.imagenes-chicas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.propuesta div img{
-    width: 150px;
+
+.imagenes-chicas img {
+  width: 30%;
+  min-width: 150px;
+}
+
+.imagenes-medianas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagenes-medianas img {
+  width: 45%;
+  min-width: 200px;
+}
+
+.imagen-grande {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen-grande img {
+  width: 90%;
+  max-width: 800px;
 }
