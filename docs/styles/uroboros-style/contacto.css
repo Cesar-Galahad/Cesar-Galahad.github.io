@@ -1,0 +1,81 @@
+main{
+  font-family: 'roboto', monospace;
+}
+main img{
+  width: 600px;
+
+}
+.contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.info, .formulario {
+  flex: 1 1 300px;
+  margin: 10px;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.redes {
+  margin: 10px 0;
+}
+
+.redes a {
+  margin-right: 10px;
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.redes a:hover {
+  color: #b30000; /* tono rojo institucional */
+}
+
+.copy {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+button {
+  width: fit-content;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #333;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #b30000;
+  color: #fff;
+  border-color: #b30000;
+}

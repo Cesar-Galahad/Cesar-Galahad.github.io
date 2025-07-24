@@ -61,7 +61,7 @@ header{
     align-self: center;
 }
 .testimony{
-    height: 50vh;
+    height: 70vh;
     background-color: var(--gray);
     display: flex;
     align-items: center;

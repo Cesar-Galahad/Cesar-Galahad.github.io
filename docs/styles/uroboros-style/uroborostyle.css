@@ -76,23 +76,37 @@ nav .links-navbar a{
     text-align: center;
 }
 footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: var(--gray);
+    width: 100%;
+    background-color: #b5b5b5;
+    font-family: 'roboto', monospace;
 }
-.logo-footer img{
-    width: 150px;
-    margin-bottom: 0;
+.contacto-footer {
+  text-align: center;
+  padding: 20px;
+  color: #FFF;
+  border-top: 1px solid #ddd;
 }
-.logo-footer p{
-    margin: 0;
-    padding: 0;
-    
+
+.redes {
+  margin: 10px 0;
 }
-.logo-footer{
-    margin-right: 50px;
-    align-items: start;
-    justify-items: end;
+
+.redes a {
+  margin: 0 10px;
+  color: #FFF;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.redes a:hover {
+  color: #b30000;
+}
+
+.copy {
+  font-size: 0.9em;
+  color: white;
+  margin-top: 10px;
 }
 nav .links-navbar a:hover{
     color: var(--backr);
